@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Display</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .main {
+      font-size: 40px;
+      font-weight: bold;
+      color: gray;
+      position: relative;
+    }
+
+    .sub {
+      font-size: 28px;
+      font-style: italic;
+      color: skyblue;
+      position: absolute;
+      top: 20px;   /* Adjust to overlap correctly */
+      left: 0;
+      width: 100%;
+    }
+
+    .container {
+      position: relative;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">Zeus Learning</div>
+    <div class="sub">....Boundless thinking</div>
+  </div>
+</body>
+</html>
